@@ -14,3 +14,14 @@ function agregarAmigo(){
         alert('Por favor escriba el nombre de un amigo');
     }
 }
+
+function mostrarAmigos(){
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";//Limpiar contenido anterior
+
+    amigos.forEach(function(amigo){
+        let listarAmigos = document.createElement('li');
+        listarAmigos.textContent = amigo;
+        lista.appendChild(listarAmigos);
+    });
+}
