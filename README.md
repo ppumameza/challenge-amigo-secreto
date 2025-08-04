@@ -12,5 +12,5 @@
   <li>El sistema realizará un sorteo aleatorio y le mostrará un mensaje con el nombre del amigo seleccionado de manera aleatoria.</li>
   <li>Una vez felizado, el sistema se reinicia automáticamente y puede volver a jugar la veces que desee.</li>
 </ul>
-<p><b>Autor del proyecto: Pay Puma Meza</b></p>.
+<p><b>Autor del proyecto</b>: Pay Puma Meza</p>.
 
