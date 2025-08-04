@@ -55,7 +55,7 @@ function sortearAmigo (){
     let nombreSorteado = amigos[aleatorio];
 
     //Mostrar al amigo secreto sorteado
-    resultado.innerHTML = `El amigo secreto sorteado es ${nombreSorteado}`;
+    resultado.innerHTML = `El amigo secreto sorteado es: <strong>${nombreSorteado}</strong>`;
 
     //Limpiar la lista visual
     lista.innerHTML = '';
